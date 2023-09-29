@@ -4,7 +4,7 @@ import mongoose from 'mongoose'
 
 const app  = express()
 const port = 8000
-const DB = "mongodb+srv://hames:hames@atlascluster.xvj1a2v.mongodb.net/"
+const DB = "mongodb+srv://@atlascluster.xvj1a2v.mongodb.net/"
 
 mongoose
   .connect(DB)
